@@ -87,6 +87,7 @@ class RentACarApp(QMainWindow):
         layout = QVBoxLayout(self.sekme_musteri)
         form_layout = QHBoxLayout()
         self.txt_tc = QLineEdit(); self.txt_tc.setPlaceholderText("TC Kimlik")
+        self.txt_tc.setMaxLength(11)
         self.txt_ad = QLineEdit(); self.txt_ad.setPlaceholderText("Ad")
         self.txt_soyad = QLineEdit(); self.txt_soyad.setPlaceholderText("Soyad")
         self.txt_tel = QLineEdit(); self.txt_tel.setPlaceholderText("Telefon")
